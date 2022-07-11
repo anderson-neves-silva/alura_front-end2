@@ -1,5 +1,18 @@
 header {
     background: #bbbbbb;
+    padding: 20px 0; /*espaçameno interno, o primeiro é para cima e para baixo 20px e 0 para direita e esquerda*/
+}
+
+.caixa {
+    position: relative; /*isso posiciona a caixa para ser levantada, isso faz o menu/nav estar dentro da caixa*/
+    width: 940px; /*largura fixa, ela é uma largura padrão da web*/
+    margin: 0 auto; /*o espaçamento externo fica 0 em cima e em baixo e automático para os lados isso delega ao brawser fazer esses cálculos laterais*/
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
