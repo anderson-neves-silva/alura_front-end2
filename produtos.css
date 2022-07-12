@@ -42,6 +42,11 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px; /*ao adicionar esse espaço quebra a página, devemos colocar o espaçamento lateral dentro do percentual, fazemos isso com o comando abaixo*/
     box-sizing: border-box; /*resolvendo o problema acima, esse espaço agora é dentro da largura de 30% que passa a ser defenitivos, que temos acima*/
+    border: 2px solid #000000; /*podemos declarar assim de forma unificada o mesmo que os três comandos abaixo faz*/
+    /*border-color: #000000; borda tem; tamanho, tipo, cor*/
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    border-radius: 10px; /*mas podemos colocar uma medida diferente para cada canto*/
 }
 
 .produtos h2 {
@@ -58,30 +63,3 @@ nav a {
     font-weight: bold;
     margin: 10px 0 0; /*colocando espaçamento em cima, para os lados 0 e para baixo também 0, Obs. podemos colocar assim margin-top: 10px;*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
