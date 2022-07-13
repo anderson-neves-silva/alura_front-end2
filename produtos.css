@@ -81,3 +81,15 @@ nav a:hover {
     font-weight: bold;
     margin: 10px 0 0; /*colocando espaçamento em cima, para os lados 0 e para baixo também 0, Obs. podemos colocar assim margin-top: 10px;*/
 }
+
+footer {
+    text-align: center;
+    background: url("bg.jpg"); /*colocando uma imagem de fundo*/
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
